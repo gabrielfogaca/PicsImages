@@ -116,18 +116,18 @@ if(!isset($arq))
 						<fieldset>
 							<label for="nome">Nome</label>
 							<br>
-							<input type="text" name="nome" size="40" maxlength="75" value="<?php echo $nome ?>">
+							<input type="text" name="nome" size="40" maxlength="75" id="nome" placeholder="Nome">
 							<br>
 							<label for="email">Email</label>
 							<br>
-							<input type="text" name="email" size="40" maxlength="50"  required="@" value="<?php echo "$email" ?>"  >
+							<input type="text" name="email" size="40" maxlength="50"  required="@" id="email" placeholder="pics@email.com">
 							<br>
 							<label for="menssagem">Diga sua menssagem</label>
 							<br>
-							<input type="text" name="menssagem" size="70" maxlength="750" value="<?php echo $menssagem ?>">
+							<input type="text" name="menssagem" size="70" maxlength="750" id="menssagem" placeholder="Digite sua mensagem aqui!">
 							<br>
 							<br>
-							<input type="hidden" name="id" value="<?php echo "$id" ?>">
+							<input type="hidden" name="id" id="id">
 							<input type="submit" value="Enviar">
 						</fieldset>
 					</form>
